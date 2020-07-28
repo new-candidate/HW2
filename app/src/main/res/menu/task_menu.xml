@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/lesson2_1"
+    android:title="дз2 первый пункт"
+    android:onClick="lesson2_1"/>
+    <item android:id="@+id/lesson2_2"
+        android:title="Пример EventBus"
+        android:onClick="lesson2_2"/>
+</menu>
