@@ -17,14 +17,7 @@ public class Model {
         return list.get(index);
     }
 
-    public void setElementValueAtIndex(int index, int value){
-        if(index < 0 || index > list.size()) {
-            Log.e(TAG, "index " + index + " out of bound");
-            return;
-        }
-        list.set(index, value);
 
-    }
 
     public int getElementsCount(){
         return list.size();
